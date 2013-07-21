@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Chess Rating Calculator</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <color name="myColor">#ffffdd58</color>
+    <string name="buttonHandler">buttonHandler</string>
+    <string name="calc">Calculate New Rating</string>
+    <string name="record">Save Game</string>
+    <string name="list">List Games</string>
+    <string name="menu_settings">Menu Settings</string>
+    <string name="win">Win</string>
+    <string name="lose">Lose</string>
+    <string name="draw">Draw</string>
+    <string name="yourrating">Your Rating (700 &#8211; 3000)</string>
+    <string name="opponentsrating">Opponents Rating</string>
+    <string name="resText">What was the Result of your Game?</string>
+    <string name="endText">Written by Conor Gilmer</string>
+    <string name="outPutFile">/sdcard/chessgames.txt</string>
+    <string name="_sdcard_chessgames_gpx">/sdcard/chessgames.gpx</string>
+
+</resources>

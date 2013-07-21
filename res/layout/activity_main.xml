@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/myColor"
+    android:orientation="vertical" >
+
+<EditText
+    android:id="@+id/EditText01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/yourrating"
+    android:inputType="numberSigned|numberDecimal" >
+</EditText>
+<EditText
+    android:id="@+id/EditText02"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/opponentsrating"
+    android:inputType="numberSigned|numberDecimal" >
+</EditText>
+
+
+ <RadioGroup android:id="@+id/RadioGroup01"
+  android:layout_width="fill_parent" android:layout_height="50sp"
+  android:orientation="horizontal">
+  <RadioButton android:id="@+id/RadioButton01"
+   android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/win" android:checked="true"></RadioButton>
+  <RadioButton android:id="@+id/RadioButton02"
+   android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/draw"></RadioButton>
+  <RadioButton android:id="@+id/RadioButton03"
+   android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lose"></RadioButton>
+ </RadioGroup>
+
+ 
+ <Button android:id="@+id/CalcButton"
+  android:layout_height="wrap_content" android:onClick="@string/buttonHandler" android:layout_width="wrap_content" android:text="@string/calc"></Button>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"> 
+ <Button android:id="@+id/WriteButton"
+  android:layout_height="wrap_content" android:onClick="@string/buttonHandler" android:layout_width="wrap_content" android:text="@string/record"></Button>
+ <Button android:id="@+id/ListButton"
+  android:layout_height="wrap_content" android:onClick="@string/buttonHandler" android:layout_width="wrap_content" android:text="@string/list"></Button>
+ </LinearLayout>
+
+
+ <EditText
+    android:id="@+id/txtData"
+    android:layout_width="fill_parent"
+    android:layout_height="184dp"
+    android:textSize="18sp"
+    >
+</EditText>
+ 
+ <TextView
+     android:layout_width="fill_parent"
+     android:layout_height="184dp"
+     android:text="@string/endText" />
+
+</LinearLayout>
